@@ -1,0 +1,70 @@
+#lol{
+  font-weight: bold;
+}
+img{
+  padding-top: 1cm;
+}
+#d1{
+  padding-top: 1cm;
+}
+#title{
+  font-size: 6vw;
+}
+@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5
+    }
+
+    30% {
+        background-color: #66bf39
+    }
+
+    60% {
+        background-color: #eb670f
+    }
+
+    90% {
+        background-color: #f35
+    }
+
+    100% {
+        background-color: #864cbf
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    margin:0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #4CAF50;
+}
